@@ -1,204 +1,490 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css"/>
+
+
+
+
   
-  <title>Hexo | Hello world</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="keywords" content="undefined">
-  <meta name="description">
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="Hello Blog">
 <meta property="og:url" content="http://linshixiong.coding.me/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="Hello Blog">
 <meta property="og:description">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="Hello Blog">
 <meta name="twitter:description">
-  
-    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  <meta name="summary" content="null">
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="stylesheet" href="/css/style.css">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title> Hello Blog </title>
 </head>
 
-<body>
-  <div id="loading" class="active"></div>
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
-  <nav id="menu"  >
-   <div class="inner">
-  <a href="javascript:;" class="header-icon waves-circle-light" id="menu-off">
-      <i class="icon icon-lg icon-close"></i>
-  </a>
-  <div class="brand-wrap">
-    <div class="brand">
-      <a href="/" class="avatar"><img src="/img/logo.jpg"></a>
-      <hgroup class="introduce">
-        <h5 class="nickname">林仕雄</h5>
-        <a href="mailto:undefined" title="398167885@qq.com" class="mail">398167885@qq.com</a>
-      </hgroup>
-    </div>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left 
+   page-home 
+ ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Hello Blog</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
   </div>
-  <ul class="nav">
-    
-        <li class="waves-block active">
-          <a href="/"  >
-            <i class="icon icon-lg icon-home"></i>
-            主页
+  <p class="site-subtitle"></p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-home fa-fw"></i> <br />
+            
+            首页
           </a>
         </li>
-    
-        <li class="waves-block">
-          <a href="/archives"  >
-            <i class="icon icon-lg icon-archives"></i>
-            文章
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
+            
+            归档
           </a>
         </li>
-    
-        <li class="waves-block">
-          <a href="/tags"  >
-            <i class="icon icon-lg icon-tags"></i>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
+            
             标签
           </a>
         </li>
-    
-  </ul>
-
-  <footer class="footer">
-
-</footer>
-
-</div>
-
-  </nav>
-  <main id="main">
-    <header class="header" id="header">
-    <div class="flex-row">
-        <a href="javascript:;" class="header-icon waves-circle-light on" id="menu-toggle">
-          <i class="icon icon-lg icon-navicon"></i>
-        </a>
-        <div class="flex-col header-title ellipsis">Hexo</div>
-        
-        <a href="javascript:;" class="header-icon waves-circle-light" id="menu-share">
-            <i class="icon icon-lg icon-share-alt"></i>
-        </a>
-        
-    </div>
-</header>
-<header class="content-header">
-  <div class="container">
-    <h1 class="author">Hexo</h1>
-    <h5 class="subtitle">Hello world</h5>
-  </div>
-</header>
-
-    <div class="container body-wrap">
       
-  <ul class="post-list">
+
+      
+    </ul>
   
-    <li class="post-list-item">
-  <article id="post-Markdown入门指南" class="article article-type-post" itemprop="blogPost">
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
     
       
 
-
   
-    <h3 class="post-title" itemprop="name">
-      <a class="post-title-link" href="/2016/04/30/Markdown入门指南/">Markdown入门指南</a>
-    </h3>
   
 
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/04/30/Markdown入门指南/" itemprop="url">
+                  Markdown入门指南
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-04-30T22:48:09+08:00" content="2016-04-30">
+              2016-04-30
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/04/30/Markdown入门指南/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/04/30/Markdown入门指南/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
 
 
-      <div class="post-meat flex-row">
-        <div class="flex-col">
-	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/markdown/">markdown</a></li></ul>
-</div>
-        <time datetime="2016-04-30T14:48:09.000Z" itemprop="datePublished" class="post-tiem">
-  2016-04-30
-</time>
-      </div>
-      <div class="post-content" id="post-content" itemprop="postContent" >
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
         
           <h2 id="导语："><a href="#导语：" class="headerlink" title="导语："></a>导语：</h2><blockquote>
 <p><a href="http://zh.wikipedia.org/wiki/Markdown">Markdown</a> 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的 HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。</p>
 </blockquote>
 <h2 id="一，认识-Markdown"><a href="#一，认识-Markdown" class="headerlink" title="一，认识 Markdown"></a>一，认识 Markdown</h2><p>在刚才的导语里提到，Markdown 是一种用来写作的轻量级「标记语言」，它用简洁的语法代替排版，而不像一般我们用的字处理软件 Word 或 Pages 有大量的排版、字体设置。它使我们专心于码字，用「标记」语法，来代替常见的排版格式。例如此文从内容到格式，甚至插图，键盘就可以通通搞定了。目前来看，支持 Markdown 语法的编辑器有很多，包括很多网站（例如<a href="http://jianshu.io/">简书</a>）也支持了 Markdown 的文字录入。Markdown 从写作到完成，导出格式随心所欲，你可以导出 HTML 格式的文件用来网站发布，也可以十分方便的导出 PDF 格式，这种格式写出的简历更能得到 HR 的好感。甚至可以利用 CloudApp 这种云服务工具直接上传至网页用来分享你的文章，全球最大的轻博客平台 Tumblr，也支持 Mou 这类 Markdown 工具的直接上传。<br>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/04/30/Markdown入门指南/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
-      </div>
-      <div class="post-footer clearfix">
-        <a href="/2016/04/30/Markdown入门指南/" class="post-more waves-button-light">MORE</a>
-      </div>
+      
+    </div>
     
+    <div>
+      
+    </div>
 
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </article>
 
 
-</li>
-  
-    <li class="post-list-item">
-  <article id="post-Git分支及标签使用" class="article article-type-post" itemprop="blogPost">
     
       
 
-
   
-    <h3 class="post-title" itemprop="name">
-      <a class="post-title-link" href="/2016/04/30/Git分支及标签使用/">GIT分支及标签使用</a>
-    </h3>
   
 
+  
+  
+  
 
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
 
-      <div class="post-meat flex-row">
-        <div class="flex-col">
-	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li></ul>
-</div>
-        <time datetime="2016-04-30T14:25:08.000Z" itemprop="datePublished" class="post-tiem">
-  2016-04-30
-</time>
-      </div>
-      <div class="post-content" id="post-content" itemprop="postContent" >
+    
+      <header class="post-header">
+
         
-          <h2 id="什么是GIT分支（Branch）"><a href="#什么是GIT分支（Branch）" class="headerlink" title="什么是GIT分支（Branch）"></a>什么是GIT分支（Branch）</h2><p>Git 的分支，其实本质上仅仅是指向提交对象的可变指针。 Git 的默认分支名字是 master。 在多次提交操作之后，你其实已经有一个指向最后那个提交对象的 master 分支。 它会在每次的提交操作中自动向前移动。</p>
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/04/30/Git分支及标签使用/" itemprop="url">
+                  GIT分支及标签使用
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-04-30T22:25:08+08:00" content="2016-04-30">
+              2016-04-30
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/04/30/Git分支及标签使用/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/04/30/Git分支及标签使用/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="什么是GIT分支（Branch）"><a href="#什么是GIT分支（Branch）" class="headerlink" title="什么是GIT分支（Branch）"></a>什么是GIT分支（Branch）</h2><p>Git 的分支，其实本质上仅仅是指向提交对象的可变指针。 Git 的默认分支名字是 master。 在多次提交操作之后，你其实已经有一个指向最后那个提交对象的 master 分支。 它会在每次的提交操作中自动向前移动。</p>
 <h2 id="什么是GIT标签"><a href="#什么是GIT标签" class="headerlink" title="什么是GIT标签"></a>什么是GIT标签</h2>
+          
         
-      </div>
-      <div class="post-footer clearfix">
-        <a href="/2016/04/30/Git分支及标签使用/" class="post-more waves-button-light">MORE</a>
-      </div>
+      
+    </div>
     
+    <div>
+      
+    </div>
 
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </article>
 
 
-</li>
-  
-    <li class="post-list-item">
-  <article id="post-Gitit-基于Git和Markdown的超棒的Wiki系统" class="article article-type-post" itemprop="blogPost">
     
       
 
-
   
-    <h3 class="post-title" itemprop="name">
-      <a class="post-title-link" href="/2016/04/30/Gitit-基于Git和Markdown的超棒的Wiki系统/">Gitit:基于Git和Markdown的超棒的Wiki系统</a>
-    </h3>
   
 
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/04/30/Gitit-基于Git和Markdown的超棒的Wiki系统/" itemprop="url">
+                  Gitit:基于Git和Markdown的超棒的Wiki系统
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-04-30T20:25:08+08:00" content="2016-04-30">
+              2016-04-30
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/04/30/Gitit-基于Git和Markdown的超棒的Wiki系统/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/04/30/Gitit-基于Git和Markdown的超棒的Wiki系统/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
 
 
-      <div class="post-meat flex-row">
-        <div class="flex-col">
-	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/gitit/">gitit</a></li></ul>
-</div>
-        <time datetime="2016-04-30T12:25:08.000Z" itemprop="datePublished" class="post-tiem">
-  2016-04-30
-</time>
-      </div>
-      <div class="post-content" id="post-content" itemprop="postContent" >
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
         
           <h1 id="Gitit-Bigger"><a href="#Gitit-Bigger" class="headerlink" title="Gitit Bigger"></a>Gitit Bigger</h1><p>Gitit Bigger: Git and Markdown based wiki, Bootstrap, ace Editor, syntax highlight and docker deploy support.</p>
 <p>基于 Git 和 Markdown 的超棒的 Wiki 系统，Bootstrap、Ace 编辑器等增强，支持 Docker 部署。</p>
@@ -209,76 +495,161 @@
 <li>普通版</li>
 </ul>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/shajiquan/gitit-bigger ~/workspace/gitit;</span><br><span class="line"><span class="built_in">cd</span> ~/workspace/gitit;</span><br><span class="line">cp sample.gitit.conf my-gitit.conf;</span><br><span class="line">./run/run.sh start;</span><br></pre></td></tr></table></figure>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/04/30/Gitit-基于Git和Markdown的超棒的Wiki系统/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
-      </div>
-      <div class="post-footer clearfix">
-        <a href="/2016/04/30/Gitit-基于Git和Markdown的超棒的Wiki系统/" class="post-more waves-button-light">MORE</a>
-      </div>
+      
+    </div>
     
+    <div>
+      
+    </div>
 
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </article>
 
 
-</li>
-  
-  </ul>
+    
+  </section>
+
   
 
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/logo.jpg"
+               alt="林仕雄" />
+          <p class="site-author-name" itemprop="name">林仕雄</p>
+          <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+      </section>
+
+      
 
     </div>
-  </main>
-<div class="mask" id="mask"></div>
-<a href="javascript:;" id="gotop" class="waves-circle-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+  </aside>
 
-<script>
-var BLOG_SHARE = {
-    title: "Hexo",
-    pic: "/img/logo.jpg",
-    summary: document.getElementsByName('summary')[0].content,
-    url: "http://linshixiong.coding.me/index.html"
-};
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">林仕雄</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
 </script>
-<div class="global-share" id="global-share">
-    <div class="tit">分享到：</div>
-    <ul class="reset share-icons">
-      <li>
-        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
-          <i class="icon icon-weibo"></i>
-        </a>
-      </li>
-      <li>
-        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
-          <i class="icon icon-weixin"></i>
-        </a>
-      </li>
-      <li>
-        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
-          <i class="icon icon-qq"></i>
-        </a>
-      </li>
-      <li>
-        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
-          <i class="icon icon-facebook"></i>
-        </a>
-      </li>
-      <li>
-        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
-          <i class="icon icon-twitter"></i>
-        </a>
-      </li>
-      <li>
-        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
-          豆
-        </a>
-      </li>
-    </ul>
- </div>
-
-
-
-<script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
-
-<script src="/js/main.js"></script>
 
 
 
@@ -286,6 +657,86 @@ var BLOG_SHARE = {
 
 
 
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"helloworld"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+  
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
 
 </body>
 </html>
